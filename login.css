@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+   background: url('dotawallpapers.com-hoodwink-animated-pixel-dota-2-artwork-2560x1440.gif');
+   background-repeat:no-repeat;
+   background-size: cover;
+}
+h2{
+    color: white;
+}
+p{
+    color: #fff;
+}
