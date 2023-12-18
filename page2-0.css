@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, pink,blue);
+}
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo img{
+    width: 100px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.information{
+    width: 1000px;
+    height: 1000px;
+    position:absolute;
+    top: 50%;
+    left: -10;
+    transform: translateY(-50%);
+}
+#circle{
+    width: 1000px;
+    height: 1000px;
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 1s;
+}
+.feature img{
+    width: 70px;
+}
+.feature{
+    position:absolute;
+    display: flex;
+    color: white;
+}
+.feature div{
+    margin-top: 30px;
+}
+.feature div p{
+    margin-top: 8px;
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto; /* Center the table horizontally */
+    border-color: transparent;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    max-width: 80%; /* Set a maximum width for better responsiveness */
+}
+
+.table-container td img {
+    max-width: 100%; /* Make the image responsive */
+    max-height:250px;/* Allow the image height to adjust accordingly */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    display: block;
+    margin-left: -10%; /* Center the image horizontally */
+    margin-right: 5%;
+}
+
+td, th {
+    padding: 10px;
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}

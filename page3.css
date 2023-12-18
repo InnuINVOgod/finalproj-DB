@@ -46,8 +46,92 @@ nav{
     border-radius: 5px;
     padding: 10px;
     margin-right: auto;
-    margin-left: 10px;
+    margin-left: 20px;
+    display: inline-block; /* Display the first profile box inline with the second one */
+    vertical-align: top; /* Align the top of the inline-block elements */
+    margin-right: 20px; /* Adjust the margin as needed */
+
 }
 h3{
-    color: #fff;
+    color:coral;
+}
+.profile img {
+    width: 200px; /* Set your desired width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: Add border-radius for a circular image */
+    margin-left: 30%;
+    
+}
+.my-box {
+    width: 500px;
+    height: 700px;
+    background-color: transparent;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 40px;
+    position: absolute;
+}
+.profile2 img {
+    width: 500px; /* Set your desired width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: Add border-radius for a circular image */
+    margin-left: 0%;
+    display: inline-block; /* Display the second profile box inline with the first one */
+    vertical-align: top; /* Align the top of the inline-block elements */
+    
+}
+profile2{
+    /* Your styles for the second profile container */
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+/* Styles for the content inside the second profile box */
+.box2{
+    width: 500px;
+    height: 700px;
+    background-color: transparent;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 36%;
+    position: absolute;
+}
+.profile3 img {
+    width: 500px; /* Set your desired width */
+    height: 280px; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: Add border-radius for a circular image */
+    margin-left: 0%;
+    display: inline-block; /* Display the second profile box inline with the first one */
+    vertical-align: top; /* Align the top of the inline-block elements */
+    
+}
+profile3{
+    /* Your styles for the second profile container */
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+/* Styles for the content inside the second profile box */
+.box3{
+    width: 500px;
+    height: 700px;
+    background-color: transparent;
+    background-size: cover;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 70%;
+    position: absolute;
+    margin-right: 20px;
+    
+}
+.box3 a img {
+    width: 50px; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 90%; /* Optional: Add some space to the right of the icon */
+}
+.box3 video {
+    max-width: 95%;
+    height: 500px;
+    margin-left: 10px;
 }
