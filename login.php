@@ -13,6 +13,27 @@ if (isset($_SESSION["user"])) {
     <title>Login Form</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="login.css">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-style: groove;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    margin-top: 200px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+    </style>
 </head>
 <body>
     <div class="container">
